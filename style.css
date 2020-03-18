@@ -1,0 +1,145 @@
+.navbar{
+	border-radius: 0!important;
+	font-size: 1.15em;
+	margin-bottom: 0!important;
+}
+.signup_btn,
+.signin_btn,
+.logout_btn,
+.myaccount_btn{
+	background-color: #222222;
+	border: none;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	padding: 10px;
+}
+.signup_btn:hover,	
+.signin_btn:hover,
+.logout_btn:hover{
+	color: white!important;
+}
+
+/* Modals */
+.modal-backdrop{
+	opacity: .75;
+}
+.un_input,
+.email_input,
+.pw_input,
+.confirm_pw_input{
+	width: 90%;
+}
+.close_btn{
+	margin-right: 45px;
+}
+.signin_header,
+.signup_header,
+.sell_header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 45px;
+}
+.signin_username,
+.signin_password,
+.signup_username,
+.signup_email,
+.signup_password,
+.signup_cpw,
+.book_title,
+.book_isbn,
+.book_author,
+.book_edition,
+.book_price,
+.book_publisher{
+	display: block;
+	margin: 0 auto;
+	width: 80%!important;
+	margin-bottom: 20px;
+	border: 1px solid grey!important;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #858585;
+}
+.remember_me{
+	margin-right: 40px;
+}
+.already_member_link,
+.not_member_link{
+	cursor: pointer;
+}
+.signup_confirm,
+.sell_submit{
+	display: block;
+	margin: 0 auto;
+	width: 25%!important;
+	margin-top: 30px!important;
+	margin-bottom: 30px!important;
+}
+.signin_confirm{
+	display: block;
+	margin:0 auto;
+	width: 25%!important;
+	margin-bottom: 30px!important;
+	margin-top: 30px;
+}
+.not_member,
+.already_member{
+	margin-bottom: 40px;
+}
+.logout_form{
+	padding: 14.5px;
+}
+.logout_form a{
+	color: #B0B0B0;
+}
+
+/* Carousel */
+#carousel_pic,
+#carousel_pic2,
+#carousel_pic3{
+	height: 420px;
+}
+.carousel_signup{
+	cursor: pointer;
+}
+
+/* Footer */
+.footer_container{
+	background-color: #222222;
+	color: white;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.footer_text{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Catalog page */
+.search{
+	margin-top: 25px!important;
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+}
+.selling_text{
+	text-align: center;
+}
+.selling_text a{
+	cursor: pointer;
+}
+.book_isbn{
+	margin-bottom: -2px!important;
+}
+.isbn_modal_link{
+	cursor: pointer;
+}
+.isbn_image{
+	margin: 20px;
+}
+.isbn_back_button{
+	margin-bottom: 20px!important;
+}
